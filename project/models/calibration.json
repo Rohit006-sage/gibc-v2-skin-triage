@@ -1,0 +1,10 @@
+{
+  "model": "EfficientNet-B0 fine-tuned on HAM10000 (GIBC V2 Track 02)",
+  "checkpoint": "models/best.pt",
+  "val_auc": 0.9218,
+  "test_auc_tta": 0.9108,
+  "test_sensitivity_at_95_specificity_tta": 0.5867,
+  "temperature": 3.715352290971726,
+  "tta": true,
+  "notes": "Logits are divided by `temperature` before sigmoid to produce calibrated probabilities. TTA averages the logits of the original and horizontally flipped image. Trained via: src.train (11 epochs) then src.resume (10 epochs, lr 1e-5, cosine)."
+}

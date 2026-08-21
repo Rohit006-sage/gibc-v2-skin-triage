@@ -1,0 +1,45 @@
+MIT License
+
+Copyright (c) 2026 [Your Full Name]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+DATA ATTRIBUTION:
+
+This project uses the HAM10000 dataset:
+  Tschandl, P., Rosendahl, C. & Kittler, H. The HAM10000 dataset, a large
+  collection of multi-source dermatoscopic images of common pigmented skin
+  lesions. Sci. Data 5, 180161 (2018).
+  https://doi.org/10.1038/sdata.2018.161
+
+HAM10000 is distributed under Creative Commons Attribution-NonCommercial
+4.0 International (CC BY-NC 4.0). The dataset itself is NOT redistributed
+with this source code; users must download it from the original source.
+
+---
+
+MEDICAL DISCLAIMER:
+
+This software is a research prototype developed for the Global Innovation
+Build Challenge V2 hackathon. It is NOT a medical device, has NOT been
+validated clinically, and MUST NOT be used for diagnostic decisions or
+to inform patient care. The authors assume no liability for any use of
+this software outside its intended research-demonstration context.

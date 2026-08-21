@@ -1,0 +1,223 @@
+{
+  "test_auc": 0.9107978142076502,
+  "test_sensitivity_at_95_specificity": 0.5866666666666667,
+  "threshold": 0.5,
+  "tta": true,
+  "calibration": {
+    "applied": true,
+    "temperature": 3.715352290971726,
+    "val_nll_before": 0.5379344265324414,
+    "val_nll_after": 0.2727351569266122,
+    "test_nll_after": 0.30180711356459755
+  },
+  "tuned_threshold": {
+    "target_sensitivity": 0.9,
+    "threshold": 0.0019123353995382786,
+    "test_sensitivity": 1.0,
+    "test_specificity": 0.0,
+    "per_class": {
+      "benign": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1220
+      },
+      "malignant": {
+        "precision": 0.19736842105263158,
+        "recall": 1.0,
+        "f1": 0.32967032967032966,
+        "support": 300
+      }
+    },
+    "confusion_matrix": [
+      [
+        0,
+        1220
+      ],
+      [
+        0,
+        300
+      ]
+    ]
+  },
+  "youden_threshold": {
+    "threshold": 0.0030153493862599134,
+    "test_sensitivity": 1.0,
+    "test_specificity": 0.0,
+    "per_class": {
+      "benign": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1220
+      },
+      "malignant": {
+        "precision": 0.19736842105263158,
+        "recall": 1.0,
+        "f1": 0.32967032967032966,
+        "support": 300
+      }
+    },
+    "confusion_matrix": [
+      [
+        0,
+        1220
+      ],
+      [
+        0,
+        300
+      ]
+    ]
+  },
+  "operating_points": {
+    "spec_0.95": {
+      "val_specificity_target": 0.95,
+      "threshold": 0.7570450901985168,
+      "test_sensitivity": 0.5033333333333333,
+      "test_specificity": 0.9754098360655737,
+      "test_f1_malignant": 0.6278586278586279,
+      "per_class": {
+        "benign": {
+          "precision": 0.888722927557879,
+          "recall": 0.9754098360655737,
+          "f1": 0.9300508010941774,
+          "support": 1220
+        },
+        "malignant": {
+          "precision": 0.8342541436464088,
+          "recall": 0.5033333333333333,
+          "f1": 0.6278586278586279,
+          "support": 300
+        }
+      },
+      "confusion_matrix": [
+        [
+          1190,
+          30
+        ],
+        [
+          149,
+          151
+        ]
+      ]
+    },
+    "spec_0.90": {
+      "val_specificity_target": 0.9,
+      "threshold": 0.17851831018924713,
+      "test_sensitivity": 0.8866666666666667,
+      "test_specificity": 0.7459016393442623,
+      "test_f1_malignant": 0.6073059360730594,
+      "per_class": {
+        "benign": {
+          "precision": 0.9639830508474576,
+          "recall": 0.7459016393442623,
+          "f1": 0.8410351201478743,
+          "support": 1220
+        },
+        "malignant": {
+          "precision": 0.4618055555555556,
+          "recall": 0.8866666666666667,
+          "f1": 0.6073059360730594,
+          "support": 300
+        }
+      },
+      "confusion_matrix": [
+        [
+          910,
+          310
+        ],
+        [
+          34,
+          266
+        ]
+      ]
+    },
+    "spec_0.80": {
+      "val_specificity_target": 0.8,
+      "threshold": 0.008693703450262547,
+      "test_sensitivity": 1.0,
+      "test_specificity": 0.0,
+      "test_f1_malignant": 0.32967032967032966,
+      "per_class": {
+        "benign": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1220
+        },
+        "malignant": {
+          "precision": 0.19736842105263158,
+          "recall": 1.0,
+          "f1": 0.32967032967032966,
+          "support": 300
+        }
+      },
+      "confusion_matrix": [
+        [
+          0,
+          1220
+        ],
+        [
+          0,
+          300
+        ]
+      ]
+    },
+    "spec_0.50": {
+      "val_specificity_target": 0.5,
+      "threshold": 1.1775820212278632e-06,
+      "test_sensitivity": 1.0,
+      "test_specificity": 0.0,
+      "test_f1_malignant": 0.32967032967032966,
+      "per_class": {
+        "benign": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1220
+        },
+        "malignant": {
+          "precision": 0.19736842105263158,
+          "recall": 1.0,
+          "f1": 0.32967032967032966,
+          "support": 300
+        }
+      },
+      "confusion_matrix": [
+        [
+          0,
+          1220
+        ],
+        [
+          0,
+          300
+        ]
+      ]
+    }
+  },
+  "per_class": {
+    "benign": {
+      "precision": 0.9255230125523013,
+      "recall": 0.9065573770491804,
+      "f1": 0.9159420289855073,
+      "support": 1220
+    },
+    "malignant": {
+      "precision": 0.6492307692307693,
+      "recall": 0.7033333333333334,
+      "f1": 0.6752,
+      "support": 300
+    }
+  },
+  "confusion_matrix": [
+    [
+      1106,
+      114
+    ],
+    [
+      89,
+      211
+    ]
+  ],
+  "n_test": 1520
+}
